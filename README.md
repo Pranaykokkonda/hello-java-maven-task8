@@ -53,8 +53,10 @@ In same section, under Maven:
 
 Choose **Freestyle project**, name it: Hello-Maven-Build
 
-- **In Build Environment:**
+- **In Source Code Management:**
+Choose **Git** and mention the **GitHub repository url** and **branch name**
 
+- **In Build Environment:**
 (Optional) Check “Delete workspace before build starts”
 
 - **In Build Steps:**
